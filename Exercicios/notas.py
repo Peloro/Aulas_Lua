@@ -1,0 +1,1 @@
+# Faça um programa para ler a nota da prova de 15 alunos e armazene numa lista, calcule e imprima a media geral

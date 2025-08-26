@@ -27,6 +27,10 @@ print(frutas)
 for fruta in frutas:
     print("Eu gosto de", fruta)
 
+# PERCORRENDO ITENS DA LISTA COM INDICES
+for i in range(len(frutas)):
+    print(f"Fruta no índice {i} é {frutas[i]}")
+
 # TAMANHO DA LISTA
 print("Número de frutas na lista:", len(frutas))
 
@@ -38,11 +42,11 @@ if "laranja" not in frutas:
     print("Laranja não está na lista de frutas")
 
 # ORDENANDO A LISTA
-frutas.sort()  # Ordena a lista em ordem alfabética
+frutas.sort()  # Ordena a lista em ordem alfabética / crescente
 print("Frutas ordenadas:", frutas)
 
 # REVERTENDO A ORDEM DA LISTA
-frutas.reverse()  # Inverte a ordem dos itens na lista
+frutas.reverse()  # Inverte a ordem dos itens na lista / decrescente
 print("Frutas em ordem reversa:", frutas)
 
 # LIMPAR A LISTA
