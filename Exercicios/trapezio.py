@@ -1,4 +1,5 @@
-# CAlCULAR A ÁREA DO TRAPÉZIO
+# Faça um programa que, para z trapézios, ler os valores da base maior (B), base menor (b) e altura (h) de um trapézio, calcule e imprima a área do trapézio.
+# Depois, informe se a altura é maior, menor ou igual a 20
 # A = (B + b) * h  / 2
 
 z = int(input("quantas vezes deseja calcular a area do trapezio: "))
